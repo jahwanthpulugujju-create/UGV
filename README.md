@@ -1,3 +1,3 @@
 # UGV
 
-[![Open in Bolt](https://bolt.new/static/open-in-bolt.svg)](https://bolt.new/~/sb1-4czluyda)
+[![Open](https://bolt.new/static/open-in-bolt.svg)](https://bolt.new/~/sb1-4czluyda)
