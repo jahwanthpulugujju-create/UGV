@@ -177,7 +177,7 @@ export function useBorderScenario() {
           const dLat = (speedMps * dt * Math.sin((d.heading * Math.PI) / 180)) / 111000;
 
           let newLng = d.lng + dLng;
-          let newLat = d.lat + dLat;
+          const newLat = d.lat + dLat;
           let newStatus: BorderDroneStatus = d.status;
           let newSpeed = d.speed;
 
