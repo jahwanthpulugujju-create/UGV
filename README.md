@@ -38,3 +38,11 @@ npm run build
 ## Project standards
 
 Contributor guidance and GitHub Actions keep change expectations explicit and verify the production build for every push and pull request.
+
+## Release status
+
+Version 0.1.0 is the first documented prototype release. It packages the interactive interface, simulated operational data flow, architecture notes, contributor guidance, and automated build validation.
+
+## Scope and safety
+
+This repository is a client-side simulation and interface prototype. It does not connect to real-world assets, operational systems, or live telemetry sources. Use it for interface exploration, product discussion, and front-end engineering practice.

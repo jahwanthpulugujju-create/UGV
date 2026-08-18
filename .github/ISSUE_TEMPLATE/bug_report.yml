@@ -1,0 +1,39 @@
+name: Bug report
+description: Report a reproducible issue in the simulation interface.
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for improving the project. Please include enough detail to reproduce the issue."
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: List the shortest repeatable steps.
+      placeholder: |
+        1. Start the project
+        2. Open a view
+        3. Perform an action
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, operating system, and project version.
